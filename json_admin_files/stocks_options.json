@@ -1,0 +1,7 @@
+{    "stockreview": ["1. Choose A New Stock", "2. Continue with Stock", "3. Compare Stocks", "4. Exit"],
+    "stockoption": ["1. Choose New Stock", "2. Continue with Stock", "3. Compare Stocks", "4. Exit"],
+ "stock_activities": ["1. History", "2. Actions", "3. Dividends", "4. Splits", "5. Quarterly Financials"
+                    , "6. Major Holders", "7. Institutional Holders", "8. Quarterly Balance Sheet"
+                    ,"9. Quarterly Cashflow", "10. Quarterly Earnings", "11. Sustainability", "12. Recommendations"
+                    , "13. Is In", "14. Options", "15. News", "16. Calendar", "17. Exit"]}
+

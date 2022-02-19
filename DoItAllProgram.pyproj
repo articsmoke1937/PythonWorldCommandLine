@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79cb202d-9cae-4abf-b422-30477137329b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>DoItAllProgram.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda39-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DoItAllProgram.py" />
+    <Compile Include="Programs\activity_choice.py" />
+    <Compile Include="Programs\admin.py" />
+    <Compile Include="Programs\chucknorris.py" />
+    <Compile Include="Programs\plots.py" />
+    <Compile Include="Programs\rocks_paper_scissors.py" />
+    <Compile Include="Programs\stocks.py" />
+    <Compile Include="Programs\weather.py" />
+    <Compile Include="TestFiles\Edgar.py" />
+    <Compile Include="TestFiles\jsonload.py" />
+    <Compile Include="TestFiles\stocktest.py" />
+    <Compile Include="TestFiles\temp.py" />
+    <Compile Include="TestFiles\test.py" />
+    <Compile Include="TestFiles\test32.py" />
+    <Compile Include="TestFiles\userTest.py" />
+    <Compile Include="TestFiles\user_profile_copy.py" />
+    <Compile Include="University\globals.py" />
+    <Compile Include="University\Stocks.py" />
+    <Compile Include="University\user_profile.py" />
+    <Compile Include="University\validation.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Programs" />
+    <Folder Include="TestFiles" />
+    <Folder Include="University" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda39-64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
