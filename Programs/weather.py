@@ -1,6 +1,8 @@
 import University.globals as globals
 import requests
 import json
+
+#Function used to pull weather information
 def weather(city):   
     citychoice=1
     while (citychoice != 3):

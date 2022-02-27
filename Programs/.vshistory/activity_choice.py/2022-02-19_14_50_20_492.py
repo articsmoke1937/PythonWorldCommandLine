@@ -38,7 +38,7 @@ def activity_start(jsonfile):
         choice=int(input("Enter the number of your choice here: "))
     except:
         print("You did something incorrectly")
-
+    else:
     return(choice)
 
 #============================================

@@ -33,12 +33,7 @@ def activity_start(jsonfile):
             username_check=json.load(open_user_file)
     for x in username_check['start']:
         print(x)
-    #Enter in some exception handling for the entry
-    try:
-        choice=int(input("Enter the number of your choice here: "))
-    except:
-        print("You did something incorrectly")
-
+    choice=int(input("Enter the number of your choice here: "))
     return(choice)
 
 #============================================
