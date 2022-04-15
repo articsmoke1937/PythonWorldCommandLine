@@ -7,11 +7,15 @@ Active internet connection
 
 ## Instructions
     Clone the PythonWorldCommandLine repo from GitHub:
-    https://github.com/articsmoke1937/PythonWorldCommandLine
+        https://github.com/articsmoke1937/PythonWorldCommandLine
+    
     Navigate to the PythonWorldCommandLine directory.
+    
     Create and activate a virtual environment.
+    
     Use pip to install system requirements:
-    pip install -r requirements.txt
+        pip install -r requirements.txt
+    
     Run the project:
     DoItAllProgram.py
 
