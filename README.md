@@ -32,19 +32,20 @@ DoItAllProgram.py
        The user can also do a stock comparison.  the user is asked how many stocks they would like to compare, this must be a number such as '2' And the user must            enter in valid stock symbols such as 'msft' and 'amzn'.  This will return a plot graph of price history for the stocks.
      5. The final program is rock, paper, scissors.  In this the user must declare which item they want to use, they must correctly spell the item such as 'rock'
         The program will return the results to the user.
-        
+
+## Code Louisville Requirements
 ### Category 1
-Project implements a master loop console application. User can enter commands to choose options, exit select options, and exit program.
-Option 2 calculates and displays data based on an external factor, the Chuck Norris jokes and the Weather program
-Option 3 creates lists and a dictionary which are utilized for user information and last user login.
-Option 4 A list is created for the stocks and will display a graph
+        Project implements a master loop console application. User can enter commands to choose options, exit select options, and exit program.
+        Option 2 calculates and displays data based on an external factor, the Chuck Norris jokes and the Weather program
+        Option 3 creates lists and a dictionary which are utilized for user information and last user login.
+        Option 4 A list is created for the stocks and will display a graph
 
 ### Category 2
-This project reads data from an external json file.
+        This project reads data from an external json file.
 
 ### Category 3
-Option 4 Stock data is visualized in a plot graph
+        Option 4 Stock data is visualized in a plot graph
 
 ### Category 4
-This project utilizes a virtual environment and lists dependencies in a requirement.txt file.
+        This project utilizes a virtual environment and lists dependencies in a requirement.txt file.
 
