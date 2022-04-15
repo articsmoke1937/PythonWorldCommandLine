@@ -1,9 +1,10 @@
 
-System Requirements
-Python v3.10.1
-pandas v1.4.0
-matplotlib v3.5.1
-Active internet connection
+## System Requirements
+    Python v3.10.1
+    pandas v1.4.0
+    matplotlib v3.5.1
+    json5 0.9.6
+    Active internet connection
 
 ## Instructions
     Clone the PythonWorldCommandLine repo from GitHub:
