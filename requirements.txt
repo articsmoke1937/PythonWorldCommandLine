@@ -254,7 +254,7 @@ seaborn==0.11.2
 sec-api==1.0.8
 sec-edgar-downloader==4.3.0
 Send2Trash==1.8.0
-setuptools==58.0.4
+setuptools==65.5.1
 sgmllib3k==1.0.0
 simplegeneric==0.8.1
 singledispatch==3.7.0
